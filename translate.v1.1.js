@@ -18,7 +18,7 @@ const getSelects = () => {
     if(selects.length > 1) {
             translate()
     } else {
-        clearInterval(interval)
+//        clearInterval(interval)
     }
     
     console.log(counter)
