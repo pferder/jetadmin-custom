@@ -16,7 +16,6 @@ const getSelects = () => {
     if(selects.length > 1) {
         translate()
     } else {
-        console.log(counter)
         console.log(selects)
     }
      
