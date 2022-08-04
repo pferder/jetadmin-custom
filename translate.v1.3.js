@@ -21,6 +21,3 @@ function getSelects() {
     console.log(selects)
 }
 
-while (selects.length <= 1) {
-    setTimeout(getSelects(),3000)
-}
