@@ -6,6 +6,7 @@ function translate() {
     for (i=0;i<selects.length;i++) {
         // cambiar CHOOSE a Elegir opción    
         selects[i]['children'][0]['innerHTML'] = 'Elegir opción';
+        console.log("translate: " + i)
     }   
 
 }
@@ -17,7 +18,7 @@ function getSelects() {
     if(selects.length > 1) {
             translate()
     }
-    console.log(counter)
-    console.log(selects)
+    console.log("counter: " + counter)
+    console.log("counter: " + selects.length)
 }
 
